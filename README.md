@@ -1,1 +1,1 @@
-https://bal-alexej.github.io/zadanie2/
+https://bal-alexej.github.io/gittest/
