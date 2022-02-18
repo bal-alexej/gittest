@@ -153,7 +153,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background: url("/img/laboriosa/1.png") center no-repeat, url("/img/laboriosa/Layer12.png") no-repeat;
+  background: url(../img/laboriosa/1.png) center no-repeat, url(../img/laboriosa/Layer12.png) no-repeat;
 }
 
 /*Вёрстка секции retrobike*/
@@ -194,11 +194,11 @@ body {
 }
 
 .retrobike .retrobike__image {
-  background: url("/img/retrobike/Logo.png") center no-repeat, url("/img/retrobike/Layer15.png") no-repeat;
+  background: url(../img/retrobike/Logo.png) center no-repeat, url(../img/retrobike/Layer15.png) no-repeat;
 }
 
 .retrobike .retrobike__image1 {
-  background: url("/img/retrobike/Layer14.png") no-repeat;
+  background: url(../img/retrobike/Layer14.png) no-repeat;
 }
 
 /*Вёрстка секции aodNewYork*/
@@ -313,7 +313,7 @@ body {
 }
 
 .shopnow .shopnow__image6 {
-  background: url("/img/shopnow/9.png") center no-repeat, url("/img/shopnow/10.png") center no-repeat;
+  background: url(../img/shopnow/9.png) center no-repeat, url(../img/shopnow/10.png) center no-repeat;
 }
 
 /*Вёрстка секции discover*/
