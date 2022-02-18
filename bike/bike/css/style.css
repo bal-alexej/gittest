@@ -115,7 +115,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background: url("../img/vintageoliva/logo.png") center no-repeat, url("../img/vintageoliva/10.png") no-repeat;
+  background: url(../img/vintageoliva/logo.png) center no-repeat, url(../img/vintageoliva/10.png) no-repeat;
 }
 
 .vintageoliva__row .vintageoliva__item {
