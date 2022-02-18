@@ -1,0 +1,223 @@
+body {
+  margin: 0px;
+  font-family: "Poppins";
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header___top {
+  background-color: #ba0000;
+}
+
+.header___top .header__toptitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  font-size: 14px;
+  font-family: "Poppins";
+  color: white;
+  line-height: 1.714;
+}
+
+.header___top .header__toptitle .header__language {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header___top .header__toptitle .header__CountryProfile {
+  margin: 0 15px 0 30px;
+}
+
+.header___nav {
+  background-color: #ffcc00;
+}
+
+.header___nav .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+.header___nav .header__navlink {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header___nav .header__Search {
+  margin: 25px -10px 0 0;
+}
+
+.header___nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header___nav ul li {
+  list-style: none;
+}
+
+.header__ullink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 800;
+  font-weight: 300;
+}
+
+.header__ullink a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 47px 18px;
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #ba0000;
+  line-height: 1.714;
+  text-align: center;
+}
+
+.header__ullink a:hover {
+  font-weight: 600;
+  border-bottom: 4px solid #ba0000;
+}
+
+.header__WeDeliver {
+  height: 800px;
+  background: url("/img/header/1.png") center no-repeat;
+}
+
+.header__WeDeliver .header__title {
+  width: 460px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 70px;
+  font-family: "Poppins";
+  color: white;
+  line-height: 1.143;
+  text-align: left;
+  padding: 175px 0 95px;
+  position: relative;
+}
+
+.header__WeDeliver .header__title::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: #ffcc00;
+  left: 0;
+  bottom: 50px;
+}
+
+.header__WeDeliver .header__text p {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: #ffcc00;
+  line-height: 27px;
+  margin: 0;
+}
+
+.header__WeDeliver .header__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-family: "Poppins";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding: 34px 0;
+}
+
+.header__WeDeliver .header__subtitle .header__quick {
+  font-family: "Poppins";
+  position: relative;
+  margin: 0 45px;
+}
+
+.header__WeDeliver .header__subtitle .header__quick::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: #ffcc00;
+  position: absolute;
+  bottom: 7px;
+  right: -26px;
+}
+
+.header__WeDeliver .header__subtitle .header__quick::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 25px;
+  background-color: #ffcc00;
+  position: absolute;
+  bottom: 7px;
+  left: -26px;
+}
+
+.header___button {
+  padding-bottom: 170px;
+}
+
+.header___button .header__btn {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+.header___button .header__btn_1 {
+  color: #ba0000;
+  background-color: #ffcc00;
+  border: 2px solid #ffcc00;
+}
+
+.header___button .header__btn_2 {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.content,
+.footer {
+  height: 200px;
+  border: 1px solid red;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
