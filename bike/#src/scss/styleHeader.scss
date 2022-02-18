@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  background: url("/img/header/layer1.png") center no-repeat;
+  background: url(../img/header/layer1.png) center no-repeat;
   height: 800px;
   .header__ul {
     display: flex;
@@ -84,8 +84,8 @@ body {
   .vintageoliva__image {
     display: flex;
     flex-grow: 1;
-    background: url("/img/vintageoliva/logo.png") center no-repeat,
-      url("/img/vintageoliva/10.png") no-repeat;
+    background: url("../img/vintageoliva/logo.png") center no-repeat,
+      url("../img/vintageoliva/10.png") no-repeat;
   }
   .vintageoliva__item {
     flex-basis: 533px;
