@@ -19,6 +19,11 @@ body {
     height: 100%;
   }
 }
+@media (max-width: 500px) {
+  .container {
+    padding: 70px 25px;
+  }
+}
 /*Вёрстка секции calculator*/
 
 .calculator {
