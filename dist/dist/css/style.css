@@ -587,9 +587,6 @@ body {
 .input {
   position: absolute;
   width: 90px;
-  left: -15px;
-  bottom: -3px;
-  border: 1px solid #fff;
   color: #47465a;
   font-size: 20px;
   display: none;
