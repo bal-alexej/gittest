@@ -18,10 +18,17 @@ body {
   .container {
     height: 100%;
   }
+
+  .calculator {
+    margin: 10px;
+  }
 }
 @media (max-width: 500px) {
   .container {
-    padding: 70px 25px;
+    padding: 35px 25px;
+  }
+  .calculator h1 {
+    margin: 0;
   }
 }
 /*Вёрстка секции calculator*/
@@ -58,7 +65,7 @@ body {
   .calculator__ann {
     border: 1px solid #dbdddf;
     padding: 10px 10px;
-    border-radius: 4px;
+
     &:active {
       border: 1px solid #67ac5b;
       color: red;
@@ -71,7 +78,12 @@ body {
       color: inherit;
     }
   }
-
+  .calculator__dif {
+    border-radius: 4px 0 0 4px;
+  }
+  .calculator__ann {
+    border-radius: 0 4px 4px 0;
+  }
   .calculator__item {
     flex-basis: 350px;
     padding-top: 15px;
@@ -133,18 +145,6 @@ body {
   }
 }
 
-@media (max-width: 900px) {
-  .calculator__slider {
-    color: red;
-  }
-}
-
-@media (max-width: 700px) {
-  .calculator__slider {
-    color: red;
-  }
-}
-
 .item {
   .item__text {
     color: $color__text;
@@ -155,7 +155,13 @@ body {
     font-size: 45px;
     padding: 12px 0 25px 0;
     font-weight: 600;
-    font-family: "roboto";
+  }
+  .item__form {
+    position: relative;
+    top: 0px;
+    &:active {
+      top: 2px;
+    }
   }
   .item__btn {
     display: flex;
@@ -168,14 +174,25 @@ body {
     font-size: 20px;
     border-radius: 3px;
     margin: 0 0 20px 0;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #4fb43d;
+      box-shadow: 0px 0px 1px #4fb43d;
+    }
+    &:active {
+      color: red;
+    }
   }
 }
 @media (max-width: 1200px) {
   .item {
     padding-left: 4px;
   }
-  .item__btn {
-    padding: 15px 70px;
+}
+@media (max-width: 400px) {
+  .item .item__btn {
+    width: 250px;
   }
 }
 
