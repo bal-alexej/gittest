@@ -15,12 +15,12 @@ if (rangeSlider) {
     },
   });
 
-  const input = document.getElementById('input-0');
-  const inputs = [input]
-  rangeSlider.noUiSlider.on('update', function(values, handle){
-  console.log(values);
-  inputs[handle].value = Math.round(values[handle])
-  });
+  // const input = document.getElementById('input-0');
+  // const inputs = [input]
+  // rangeSlider.noUiSlider.on('update', function(values, handle){
+  // console.log(values);
+  // inputs[handle].value = Math.round(values[handle])
+  // });
   
 
 }
