@@ -6,14 +6,23 @@ let rangeSlider = document.getElementById("range-slider");
 
 if (rangeSlider) {
   noUiSlider.create(rangeSlider, {
-    start: 12,
+    start: 138100,
     connect: "lower",
     step: 1,
     range: {
-      min: 0,
-      max: 98,
+      min: 15000,
+      max: 1000000,
     },
   });
+
+  const input = document.getElementById('input-0');
+  const inputs = [input]
+  rangeSlider.noUiSlider.on('update', function(values, handle){
+  console.log(values);
+  inputs[handle].value = Math.round(values[handle])
+  });
+  
+
 }
 
 
