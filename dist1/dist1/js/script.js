@@ -31,12 +31,20 @@ let rangeDSlider = document.getElementById("range-slider1");
 
 if (rangeDSlider) {
   noUiSlider.create(rangeDSlider, {
-    start: 53,
+    start: 8,
     connect: "lower",
     step: 1,
     range: {
-      min: 0,
-      max: 88,
+      min: 2,
+      max: 12,
     },
   });
+
+  const input = document.getElementById('input-1');
+  const inputs = [input]
+  rangeDSlider.noUiSlider.on('update', function(values, handle){
+  console.log(values);
+  inputs[handle].value = Math.round(values[handle])
+  });
+
 }
