@@ -327,3 +327,12 @@ body {
   width: 30px;
   left: -19px;
 }
+
+@media (max-width: 500px) {
+  .input {
+    left: -18px;
+  }
+  .input_1 {
+    left: -29px;
+  }
+}

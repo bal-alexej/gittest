@@ -671,6 +671,14 @@ body {
   .calculator h1 {
     margin: 0;
   }
+
+  .input {
+    left: -18px;
+  }
+
+  .input_1 {
+    left: -29px;
+  }
 }
 
 @media (max-width: 400px) {
